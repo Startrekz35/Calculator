@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 
+//Testing Change
 int add(int x, int y) //Addition
 {
     return x + y;
@@ -14,7 +15,7 @@ std::cout << result << std::endl;
 }
 
 
-int subtraction(int x, int y)
+int subtraction(int x, int y) //Subtraction
 {
     return x - y;
 }
