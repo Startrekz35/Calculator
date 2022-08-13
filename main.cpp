@@ -38,10 +38,43 @@ int result = multiply(x, y);
 std::cout << result << std::endl;
 }
 
+int divide(int x, int y)
+{
+    return x / y;
+}
+
+void divideandlog(int x, int y)
+{
+int result = divide(x, y);
+std::cout << result << std::endl;
+}
+
+int modulus(int x, int y)
+{
+    return x % y;
+}
+
+void modulusandlog(int x, int y)
+{
+int result = modulus(x, y);
+std::cout << result << std::endl;
+}
+
+
 int main()
 {
 
-multiplyandlog(5,4);
+int options;
+
+switch (options)
+{
+case 1:
+    
+    break;
+
+default:
+    break;
+}
 
 
 
